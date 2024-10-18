@@ -43,6 +43,16 @@ Hyperparameter Tuning: Utilized Keras Tuner for auto-optimization to identify th
 >The auto-optimization using Keras Tuner for hyperparameters did not yield a model that could reliably predict finish times.</br> However, the insights gained from data preprocessing and model optimization will guide future efforts in this area.
 <img title="Berlin Marathon Predictions vs. Actual" alt="Alt text" src="/output_data/berlin_act_vs_pred_cleaned.png">
 
+>The Boston Marathon had the most available data, going back to 1897.  In the graph below, we can see a significant spike in both the actual winning marathon times, as well as in our linear regression predicted times.  This is explained by the introductoin of female runners within the dataset, as the Boston Marathon allowed women to compete in 1966.</br> 
+<img title="Boston Marathon Predictions vs. Actual" alt="Alt text" src="/output_data/boston_all.png">
+
+>Separating out the Boston Marathon data across genders presents a tighter linear regression model fit when looking at just Male runners.  Additionally, we can observe a clear decline in overall winning race times over the past 120+ years</br> 
+<img title="Boston Marathon Predictions vs. Actual - Male Runners" alt="Alt text" src="/output_data/boston_male.png">
+
+>Looking at just female runners of the Boston Marathon we can see a similar decline of winning times in both the actual data, as well as the predicted data, however it is not as pronounced as observed in the male-only dataset.  Additionally, the linear regression model did not fit that well or accurately within that first decade (1967 to 1977) of introducing female runners within the dataset.</br> 
+<img title="Boston Marathon Predictions vs. Actual - Female Runners" alt="Alt text" src="/output_data/boston_female.png">
+
+
 ### Conclusion
 >This project demonstrates the potential of using neural networks for predictive analysis in sports. </br> While our initial attempts did not produce a usable model, the insights and methodologies developed during this project will inform future research and applications in the field.
 
