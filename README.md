@@ -36,7 +36,7 @@ Hyperparameter Tuning: Utilized Keras Tuner for auto-optimization to identify th
 <img title="data withh all indicator variables standarized" alt="Alt text" src="/output_data/X_train_graph_2.png">
 
 ### Results
->Based on our calculations and comparison graphs, our model achieved an accuracy of X% in predicting marathon finish times. Visualizations of our results can be found in the plot.show() section.
+>Based on our calculations and comparison graphs, our model achieved an accuracy approximate to 1.0 on average in predicting marathon finish times. Visualizations of our results can be seen on the graph below.</br> That line is the percentage of predictions over actual finish times. 
 <img title="model predictions over actual time" alt="Alt text" src="/output_data/nn_model_over_actual.png">
 
 ### Observations
